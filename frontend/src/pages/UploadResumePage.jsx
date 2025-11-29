@@ -6,7 +6,7 @@ import { Loader2 } from "lucide-react";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-export const API_URL = "http://localhost:5000";
+export const API_URL = "https://resumy-backend.onrender.com"
 
 const UploadResumePage = () => {
   const [file, setFile] = useState(null);

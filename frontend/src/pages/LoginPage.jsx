@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
 import loginImg from '../assets/loginImg.png'
 
-const API_URL = "http://localhost:5000"
+const API_URL = "https://resumy-backend.onrender.com"
 const LoginPage = () => {
   const token = localStorage.getItem("token");
   if (token) {

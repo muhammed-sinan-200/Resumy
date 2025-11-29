@@ -6,6 +6,7 @@ import avatar from '../assets/avatar.png'
 
 
 const SidebarContext = createContext();
+const API_URL = "https://resumy-backend.onrender.com"
 
 const SideBarComponent = ({ menu }) => {
   const [expand, setExpand] = useState(true);
@@ -48,7 +49,7 @@ const SideBarComponent = ({ menu }) => {
               <img
                 src={
                   user?.profilePic
-                    ? `http://localhost:5000/uploads/profile/${user.profilePic}`
+                    ? `${API_URL}/uploads/profile/${user.profilePic}`
                     : avatar
                 }
                 alt="P"

@@ -7,7 +7,7 @@ import registerImage from '../assets/registerImage.png'
 import { Navigate, useNavigate } from 'react-router-dom';
 
 
-export const API_URL = "http://localhost:5000";
+export const API_URL = "https://resumy-backend.onrender.com"
 const RegisterPage = () => {
     const [image, setImage] = useState(null);
     const navigate = useNavigate()

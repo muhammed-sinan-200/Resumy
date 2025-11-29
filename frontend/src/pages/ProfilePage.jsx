@@ -8,7 +8,7 @@ import avatar from "../assets/avatar.png";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export const API_URL = "http://localhost:5000";
+const API_URL = "https://resumy-backend.onrender.com"
 
 const MotionCard = motion(Card); // make Card motion-enabled
 
