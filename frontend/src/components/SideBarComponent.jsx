@@ -9,7 +9,7 @@ const SidebarContext = createContext();
 const API_URL = "https://resumy-backend.onrender.com"
 
 const SideBarComponent = ({ menu }) => {
-  const [expand, setExpand] = useState(true);
+  const [expand, setExpand] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem("user"))
