@@ -18,5 +18,27 @@ This is a small AI based project that helps users upload their resumes and get A
 * Nodejs, express, mongoDB
 * OpenAI
 
+# Screenshots
+
+* Register page
+![Register page](./sc/home6.png)
+
+* Login page
+![Login page](./sc/home5.png)
+
+* Home page
+![Home page](./sc/home1.png)
+
+* Main Page
+![Upload page](./sc/home2.png)
+
+* Profile page
+![Profile page](./sc/home3.png)
+
+
+
+
+
+
 
 
